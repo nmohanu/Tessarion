@@ -17,6 +17,8 @@ void Game::draw() {
 
 // Main wm loop.
 void Game::run() {
+	init();
+
 	while(wm.window_running()) {
 		sf::Event event;
 		
