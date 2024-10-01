@@ -2,6 +2,8 @@
 #include <SFML/Graphics/RenderWindow.hpp>
 #include <SFML/Window/VideoMode.hpp>
 
+using namespace TS;
+
 // Constructor.
 Window::Window() {
 	window = nullptr;
